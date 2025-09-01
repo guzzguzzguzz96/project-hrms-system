@@ -11,9 +11,8 @@
     "commit": "commitlint --edit"
   },
   "devDependencies": {
-    "eslint": "^8.0.0",
-    "prettier": "^2.0.0",
-    "commitlint": "^12.0.0",
-    "commitlint-config-standard": "^12.0.0"
+    "@commitlint/cli": "^19.0.0",
+    "@commitlint/config-conventional": "^19.0.0",
+    "husky": "^9.0.0"
   }
 }
