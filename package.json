@@ -1,0 +1,19 @@
+{
+  "name": "hr-system-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "commit": "commitlint --edit"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^2.0.0",
+    "commitlint": "^12.0.0",
+    "commitlint-config-standard": "^12.0.0"
+  }
+}
